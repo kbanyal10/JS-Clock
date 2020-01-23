@@ -8,12 +8,17 @@
 
 <body>
 
+  <div>
+    <input type="text"  class="contentText" value="Post "/>
+
+  </div>
+
 
     <div class="clock">
       <div class="clock-face">
-        <div class="hand hour-hand"></div>
-        <div class="hand min-hand"></div>
-        <div class="hand second-hand"></div>
+        <div class="hand hour-hand" id="hour"></div>
+        <div class="hand min-hand" id="min"></div>
+        <div class="hand second-hand" id="sec"></div>
       </div>
     </div>
 
@@ -23,3 +28,12 @@
 <script src="scripts.js"></script>
 
 </html>
+<!-- 
+var d = new Date();
+undefined
+var ufc_offset = d.getTimezoneOffset();
+undefined
+d.setMinutes(d.getMinutes() + ufc_offset);
+1579812010028
+console.log(d);
+VM666:1 Thu Jan 23 2020 15:40:10 GMT-0500 (Eastern Standard Time) -->
